@@ -1,10 +1,10 @@
 # Node-Qt
 
-Node-Qt provides native bindings to the [Qt library](http://developer.qt.nokia.com/doc/qt-4.8/) as a [Node.js addon](http://nodejs.org/docs/latest/api/addons.html). The focus is on graphics and audio bindings; there is no need to duplicate the functionality of the Node API and its modules.
+Node-Qt provides native bindings to the [Qt library](http://doc.qt.io/qt-4.8/) as a [Node.js addon](http://nodejs.org/docs/latest/api/addons.html). The focus is on graphics and audio bindings; there is no need to duplicate the functionality of the Node API and its modules.
 
-We try to follow [Qt's API](http://developer.qt.nokia.com/doc/qt-4.8/) as closely as possible, but sometimes quirks are inevitable (for example, virtual methods that handle events are translated into callback setters). See the header files in `src/` for a list of available bindings, and comments in `.cc` files for possible API differences. 
+We try to follow [Qt's API](http://doc.qt.io/qt-4.8/) as closely as possible, but sometimes quirks are inevitable (for example, virtual methods that handle events are translated into callback setters). See the header files in `src/` for a list of available bindings, and comments in `.cc` files for possible API differences. 
 
-For a translation of Qt's APIs into HTML5 APIs, see [Node-Five](http://github.com/arturadib/node-five).
+For a translation of Qt's APIs into HTML5 APIs, see [Node-Five](http://github.com/HamiltonWang/node-five).
 
 Supported platforms: **Mac OS X** | **Windows** | **Linux**
 
@@ -13,7 +13,7 @@ Supported platforms: **Mac OS X** | **Windows** | **Linux**
 
 Ever wanted to create native apps directly from Node? Here's a simple example illustrating how to create a native window via `QWidget()` and draw via `QPainter()`:
 
-![Screenshot](https://github.com/arturadib/node-qt/raw/master/examples/helloworld.png)
+![Screenshot](https://github.com/HamiltonWang/node-qt/raw/master/examples/helloworld.png)
 
 ```javascript
 var qt = require('node-qt'),
@@ -60,7 +60,7 @@ $ npm install node-qt
 Alternatively, to use the latest development version from Github:
 
 ```
-$ npm install git://github.com/arturadib/node-qt.git
+$ npm install git://github.com/HamiltonWang/node-qt.git
 ```
 
 This will download and build Node-Qt in `node_modules/`. Then create a new file, say `helloworld.js`, copy the example above and run Node as usual:
@@ -69,7 +69,7 @@ This will download and build Node-Qt in `node_modules/`. Then create a new file,
 $ node helloworld
 ```
 
-See the [examples/](https://github.com/arturadib/node-qt/tree/master/examples) directory for other simple use cases.
+See the [examples/](https://github.com/HamiltonWang/node-qt/tree/master/examples) directory for other simple use cases.
 
 
 
@@ -113,7 +113,7 @@ For all platforms: Node >= **0.6.14**
 To download and build the development version:
 
 ```
-$ git clone git://github.com/arturadib/node-qt.git
+$ git clone git://github.com/HamiltonWang/node-qt.git
 $ cd node-qt
 $ npm install
 ```
