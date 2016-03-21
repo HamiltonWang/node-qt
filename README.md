@@ -167,5 +167,5 @@ Tough luck :) Did you forget to `new` a wrapped object?
 _"Qt: Session management error: None of the authentication protocols specified are supported
 "_
 
-unset your environment variable 'unset SESSION_MANAGER'
+unset your environment variable `unset SESSION_MANAGER`
 
